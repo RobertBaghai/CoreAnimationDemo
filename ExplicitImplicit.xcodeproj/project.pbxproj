@@ -16,6 +16,20 @@
 		43082FA31C9F7B56001B15D1 /* smiley.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 43082FA21C9F7B56001B15D1 /* smiley.jpeg */; };
 		43082FA51C9F7CAD001B15D1 /* mini_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 43082FA41C9F7CAD001B15D1 /* mini_heart.png */; };
 		43082FA91C9F9556001B15D1 /* eagle.png in Resources */ = {isa = PBXBuildFile; fileRef = 43082FA81C9F9556001B15D1 /* eagle.png */; };
+		4311336D1CA317EA00130247 /* fireTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4311336A1CA317EA00130247 /* fireTwo.png */; };
+		4311336E1CA317EA00130247 /* fireThree.png in Resources */ = {isa = PBXBuildFile; fileRef = 4311336B1CA317EA00130247 /* fireThree.png */; };
+		4369351B1CAC78C300FF8178 /* firewood.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4369351A1CAC78C300FF8178 /* firewood.jpeg */; };
+		43BFCF6E1CA301A100734C4C /* EmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BFCF6D1CA301A100734C4C /* EmitterViewController.m */; };
+		43BFCF701CA307CD00734C4C /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 43BFCF6F1CA307CD00734C4C /* fire.png */; };
+		43C2E24B1CAAF5E60024C94B /* PathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C2E24A1CAAF5E60024C94B /* PathViewController.m */; };
+		43C2E24F1CAB030B0024C94B /* TrafficLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C2E24E1CAB030B0024C94B /* TrafficLightViewController.m */; };
+		43C2E2521CAB0FC40024C94B /* SpaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C2E2511CAB0FC40024C94B /* SpaceViewController.m */; };
+		43C2E2551CAB13820024C94B /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C2E2531CAB13820024C94B /* earth.png */; };
+		43C2E2561CAB13820024C94B /* earth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C2E2541CAB13820024C94B /* earth@2x.png */; };
+		43C2E2591CAB138A0024C94B /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C2E2571CAB138A0024C94B /* star.png */; };
+		43C2E25A1CAB138A0024C94B /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C2E2581CAB138A0024C94B /* star@2x.png */; };
+		43C2E25D1CAB13950024C94B /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C2E25B1CAB13950024C94B /* moon.png */; };
+		43C2E25E1CAB13950024C94B /* moon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C2E25C1CAB13950024C94B /* moon@2x.png */; };
 		43D188961CA1DA6C00A5603E /* treee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43D188951CA1DA6C00A5603E /* treee.jpg */; };
 		43EAC9161CA0ABE700AAEF9B /* SublayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EAC9151CA0ABE700AAEF9B /* SublayerViewController.m */; };
 		43EBF7EA1CA1A2AC0067BF95 /* SceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EBF7E91CA1A2AC0067BF95 /* SceneViewController.m */; };
@@ -67,6 +81,24 @@
 		43082FA21C9F7B56001B15D1 /* smiley.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smiley.jpeg; sourceTree = "<group>"; };
 		43082FA41C9F7CAD001B15D1 /* mini_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mini_heart.png; sourceTree = "<group>"; };
 		43082FA81C9F9556001B15D1 /* eagle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eagle.png; sourceTree = "<group>"; };
+		4311336A1CA317EA00130247 /* fireTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireTwo.png; sourceTree = "<group>"; };
+		4311336B1CA317EA00130247 /* fireThree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireThree.png; sourceTree = "<group>"; };
+		4369351A1CAC78C300FF8178 /* firewood.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = firewood.jpeg; sourceTree = "<group>"; };
+		43BFCF6C1CA301A100734C4C /* EmitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterViewController.h; sourceTree = "<group>"; };
+		43BFCF6D1CA301A100734C4C /* EmitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterViewController.m; sourceTree = "<group>"; };
+		43BFCF6F1CA307CD00734C4C /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		43C2E2491CAAF5E60024C94B /* PathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathViewController.h; sourceTree = "<group>"; };
+		43C2E24A1CAAF5E60024C94B /* PathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathViewController.m; sourceTree = "<group>"; };
+		43C2E24D1CAB030B0024C94B /* TrafficLightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficLightViewController.h; sourceTree = "<group>"; };
+		43C2E24E1CAB030B0024C94B /* TrafficLightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficLightViewController.m; sourceTree = "<group>"; };
+		43C2E2501CAB0FC40024C94B /* SpaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceViewController.h; sourceTree = "<group>"; };
+		43C2E2511CAB0FC40024C94B /* SpaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceViewController.m; sourceTree = "<group>"; };
+		43C2E2531CAB13820024C94B /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		43C2E2541CAB13820024C94B /* earth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "earth@2x.png"; sourceTree = "<group>"; };
+		43C2E2571CAB138A0024C94B /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		43C2E2581CAB138A0024C94B /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		43C2E25B1CAB13950024C94B /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
+		43C2E25C1CAB13950024C94B /* moon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moon@2x.png"; sourceTree = "<group>"; };
 		43D188951CA1DA6C00A5603E /* treee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = treee.jpg; sourceTree = "<group>"; };
 		43EAC9141CA0ABE700AAEF9B /* SublayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SublayerViewController.h; sourceTree = "<group>"; };
 		43EAC9151CA0ABE700AAEF9B /* SublayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SublayerViewController.m; sourceTree = "<group>"; };
@@ -124,6 +156,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43C2E24C1CAAF6FC0024C94B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4369351A1CAC78C300FF8178 /* firewood.jpeg */,
+				43C2E25B1CAB13950024C94B /* moon.png */,
+				43C2E25C1CAB13950024C94B /* moon@2x.png */,
+				43C2E2571CAB138A0024C94B /* star.png */,
+				43C2E2581CAB138A0024C94B /* star@2x.png */,
+				43C2E2531CAB13820024C94B /* earth.png */,
+				43C2E2541CAB13820024C94B /* earth@2x.png */,
+				4311336A1CA317EA00130247 /* fireTwo.png */,
+				4311336B1CA317EA00130247 /* fireThree.png */,
+				43BFCF6F1CA307CD00734C4C /* fire.png */,
+				43D188951CA1DA6C00A5603E /* treee.jpg */,
+				43EBF7F11CA1C6080067BF95 /* basketball.png */,
+				43EBF7ED1CA1A5340067BF95 /* bulb.png */,
+				43082FA81C9F9556001B15D1 /* eagle.png */,
+				43082FA41C9F7CAD001B15D1 /* mini_heart.png */,
+				43082F9E1C9F7693001B15D1 /* heart.png */,
+				43082FA21C9F7B56001B15D1 /* smiley.jpeg */,
+				43FC02BA1CA0D0AA00FB46E3 /* tspark.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		43EAC9171CA0C7B700AAEF9B /* RootController */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,14 +218,7 @@
 				43F9DA3B1C9F361600623EAD /* ExplicitControllers */,
 				43F9DA3E1C9F364B00623EAD /* Other */,
 				43F9DA071C9F2B3000623EAD /* Assets.xcassets */,
-				43D188951CA1DA6C00A5603E /* treee.jpg */,
-				43EBF7F11CA1C6080067BF95 /* basketball.png */,
-				43EBF7ED1CA1A5340067BF95 /* bulb.png */,
-				43082FA81C9F9556001B15D1 /* eagle.png */,
-				43082FA41C9F7CAD001B15D1 /* mini_heart.png */,
-				43082F9E1C9F7693001B15D1 /* heart.png */,
-				43082FA21C9F7B56001B15D1 /* smiley.jpeg */,
-				43FC02BA1CA0D0AA00FB46E3 /* tspark.png */,
+				43C2E24C1CAAF6FC0024C94B /* Images */,
 				43F9DA0C1C9F2B3000623EAD /* Info.plist */,
 				43F9D9FB1C9F2B3000623EAD /* Supporting Files */,
 			);
@@ -230,6 +280,14 @@
 				43EBF7E91CA1A2AC0067BF95 /* SceneViewController.m */,
 				43EBF7F31CA1C62C0067BF95 /* BallBounceViewController.h */,
 				43EBF7F41CA1C62C0067BF95 /* BallBounceViewController.m */,
+				43BFCF6C1CA301A100734C4C /* EmitterViewController.h */,
+				43BFCF6D1CA301A100734C4C /* EmitterViewController.m */,
+				43C2E2491CAAF5E60024C94B /* PathViewController.h */,
+				43C2E24A1CAAF5E60024C94B /* PathViewController.m */,
+				43C2E24D1CAB030B0024C94B /* TrafficLightViewController.h */,
+				43C2E24E1CAB030B0024C94B /* TrafficLightViewController.m */,
+				43C2E2501CAB0FC40024C94B /* SpaceViewController.h */,
+				43C2E2511CAB0FC40024C94B /* SpaceViewController.m */,
 			);
 			name = ExplicitControllers;
 			path = ..;
@@ -362,14 +420,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				43082F9F1C9F7693001B15D1 /* heart.png in Resources */,
+				43C2E25E1CAB13950024C94B /* moon@2x.png in Resources */,
 				43082FA31C9F7B56001B15D1 /* smiley.jpeg in Resources */,
+				4311336E1CA317EA00130247 /* fireThree.png in Resources */,
 				43EBF7EE1CA1A5340067BF95 /* bulb.png in Resources */,
 				43FC02BB1CA0D0AA00FB46E3 /* tspark.png in Resources */,
+				4369351B1CAC78C300FF8178 /* firewood.jpeg in Resources */,
+				4311336D1CA317EA00130247 /* fireTwo.png in Resources */,
+				43C2E25A1CAB138A0024C94B /* star@2x.png in Resources */,
 				43D188961CA1DA6C00A5603E /* treee.jpg in Resources */,
+				43BFCF701CA307CD00734C4C /* fire.png in Resources */,
 				43F9DA0B1C9F2B3000623EAD /* LaunchScreen.storyboard in Resources */,
+				43C2E2591CAB138A0024C94B /* star.png in Resources */,
 				43F9DA081C9F2B3000623EAD /* Assets.xcassets in Resources */,
+				43C2E25D1CAB13950024C94B /* moon.png in Resources */,
 				43EBF7F21CA1C6080067BF95 /* basketball.png in Resources */,
+				43C2E2551CAB13820024C94B /* earth.png in Resources */,
 				43F9DA061C9F2B3000623EAD /* Main.storyboard in Resources */,
+				43C2E2561CAB13820024C94B /* earth@2x.png in Resources */,
 				43082FA91C9F9556001B15D1 /* eagle.png in Resources */,
 				43082FA51C9F7CAD001B15D1 /* mini_heart.png in Resources */,
 			);
@@ -402,12 +470,16 @@
 				43082F921C9F6722001B15D1 /* ReflectionViewController.m in Sources */,
 				43F9DA001C9F2B3000623EAD /* AppDelegate.m in Sources */,
 				43082F8F1C9F5EB5001B15D1 /* ExplicitSpin.m in Sources */,
+				43C2E2521CAB0FC40024C94B /* SpaceViewController.m in Sources */,
 				43F9DA391C9F343B00623EAD /* UITableViewController+Name.m in Sources */,
 				43EAC9161CA0ABE700AAEF9B /* SublayerViewController.m in Sources */,
 				43082F951C9F6779001B15D1 /* TrippyBorderViewController.m in Sources */,
+				43BFCF6E1CA301A100734C4C /* EmitterViewController.m in Sources */,
 				43F9D9FD1C9F2B3000623EAD /* main.m in Sources */,
 				43082F9A1C9F7566001B15D1 /* PulseViewController.m in Sources */,
 				43F9DA331C9F326500623EAD /* ImplicitAnimationViewController.m in Sources */,
+				43C2E24F1CAB030B0024C94B /* TrafficLightViewController.m in Sources */,
+				43C2E24B1CAAF5E60024C94B /* PathViewController.m in Sources */,
 				43F9DA301C9F2BE000623EAD /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

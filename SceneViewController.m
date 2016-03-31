@@ -27,10 +27,10 @@
 
 - (void) createBackgroundSubLayer {
     UIImage *background = [UIImage imageNamed:@"treee.jpg"];
-    CALayer *treeLayer = [CALayer layer];
-    treeLayer.position = CGPointMake(MIDDLE_VIEW_X, MIDDLE_VIEW_Y);
-    treeLayer.bounds   = self.view.bounds;
-    treeLayer.contents = (id)background.CGImage;
+    CALayer *treeLayer  = [CALayer layer];
+    treeLayer.position  = CGPointMake(MIDDLE_VIEW_X, MIDDLE_VIEW_Y);
+    treeLayer.bounds    = self.view.bounds;
+    treeLayer.contents  = (id)background.CGImage;
     [treeLayer setMasksToBounds:YES];
     [self.view.layer addSublayer:treeLayer];
 }
@@ -39,11 +39,12 @@
     UIImage *light = [UIImage imageNamed:@"bulb.png"];
     
     for (NSValue *value in [self dropLayerAtPoints]) {
-        self.layer           = [CALayer layer];
-        self.layer.bounds    = CGRectMake(0, 0, 50, 50);
-        self.layer.position  = value.CGPointValue;
-        self.layer.contents  = (id)light.CGImage;
-        self.layer.zPosition = 10;
+        self.layer             = [CALayer layer];
+        self.layer.bounds      = CGRectMake(0, 0, 50, 50);
+        self.layer.position    = value.CGPointValue;
+        self.layer.contents    = (id)light.CGImage;
+        self.layer.zPosition   = 10;
+        self.layer.anchorPoint = CGPointMake(0.5, 0);// make the swinging appear more natural
         [self.layer setMasksToBounds:YES];
         [self.view.layer addSublayer:self.layer];
         [self animateLightSublayers];

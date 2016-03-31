@@ -16,6 +16,10 @@
 #import "SublayerViewController.h"
 #import "SceneViewController.h"
 #import "BallBounceViewController.h"
+#import "EmitterViewController.h"
+#import "PathViewController.h"
+#import "TrafficLightViewController.h"
+#import "SpaceViewController.h"
 
 @interface RootViewController ()
 
@@ -46,6 +50,10 @@
     [layerListTwo addObject:[SublayerViewController class]];
     [layerListTwo addObject:[SceneViewController class]];
     [layerListTwo addObject:[BallBounceViewController class]];
+    [layerListTwo addObject:[EmitterViewController class]];
+    [layerListTwo addObject:[PathViewController class]];
+    [layerListTwo addObject:[TrafficLightViewController class]];
+    [layerListTwo addObject:[SpaceViewController class]];
 
     NSDictionary *explicitAnimations = @{@"Explicit Animations" : layerListTwo};
     
@@ -72,7 +80,6 @@
     return [[self valuesForSection:section]count];
 }
 
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *cellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
@@ -95,6 +102,7 @@
     NSArray *values = [self valuesForSection:indexPath.section];
     Class clazz     = values[indexPath.row];
     id controller   = [[clazz alloc] init];
+    
     [self.navigationController pushViewController:controller animated:NO];
 }
 

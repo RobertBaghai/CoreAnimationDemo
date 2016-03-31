@@ -41,12 +41,12 @@
     CGPathMoveToPoint(path,NULL,74.0,74.0);
     
     CGPathAddCurveToPoint(path,NULL,74.0,800.0,
-                                    160.0,800.0,
-                                    160.0,74.0);
+                           MIDDLE_VIEW_X,800.0,
+                           MIDDLE_VIEW_X,74.0);
     
-    CGPathAddCurveToPoint(path,NULL,160.0,800.0,
-                                    366.0,800.0,
-                                    366.0,74.0);
+    CGPathAddCurveToPoint(path,NULL,MIDDLE_VIEW_X,800.0,
+                                            366.0,800.0,
+                                            366.0,74.0);
     
     CAKeyframeAnimation *positionAnimation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
     positionAnimation.path                 = path;

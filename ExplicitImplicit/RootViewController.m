@@ -18,7 +18,6 @@
 #import "BallBounceViewController.h"
 #import "EmitterViewController.h"
 #import "PathViewController.h"
-#import "TrafficLightViewController.h"
 #import "SpaceViewController.h"
 
 @interface RootViewController ()
@@ -52,7 +51,6 @@
     [layerListTwo addObject:[BallBounceViewController class]];
     [layerListTwo addObject:[EmitterViewController class]];
     [layerListTwo addObject:[PathViewController class]];
-    [layerListTwo addObject:[TrafficLightViewController class]];
     [layerListTwo addObject:[SpaceViewController class]];
 
     NSDictionary *explicitAnimations = @{@"Explicit Animations" : layerListTwo};

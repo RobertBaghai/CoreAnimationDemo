@@ -22,7 +22,6 @@
 		43BFCF6E1CA301A100734C4C /* EmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BFCF6D1CA301A100734C4C /* EmitterViewController.m */; };
 		43BFCF701CA307CD00734C4C /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 43BFCF6F1CA307CD00734C4C /* fire.png */; };
 		43C2E24B1CAAF5E60024C94B /* PathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C2E24A1CAAF5E60024C94B /* PathViewController.m */; };
-		43C2E24F1CAB030B0024C94B /* TrafficLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C2E24E1CAB030B0024C94B /* TrafficLightViewController.m */; };
 		43C2E2521CAB0FC40024C94B /* SpaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C2E2511CAB0FC40024C94B /* SpaceViewController.m */; };
 		43C2E2551CAB13820024C94B /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C2E2531CAB13820024C94B /* earth.png */; };
 		43C2E2561CAB13820024C94B /* earth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C2E2541CAB13820024C94B /* earth@2x.png */; };
@@ -89,8 +88,6 @@
 		43BFCF6F1CA307CD00734C4C /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
 		43C2E2491CAAF5E60024C94B /* PathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathViewController.h; sourceTree = "<group>"; };
 		43C2E24A1CAAF5E60024C94B /* PathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathViewController.m; sourceTree = "<group>"; };
-		43C2E24D1CAB030B0024C94B /* TrafficLightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficLightViewController.h; sourceTree = "<group>"; };
-		43C2E24E1CAB030B0024C94B /* TrafficLightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficLightViewController.m; sourceTree = "<group>"; };
 		43C2E2501CAB0FC40024C94B /* SpaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceViewController.h; sourceTree = "<group>"; };
 		43C2E2511CAB0FC40024C94B /* SpaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceViewController.m; sourceTree = "<group>"; };
 		43C2E2531CAB13820024C94B /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
@@ -284,8 +281,6 @@
 				43BFCF6D1CA301A100734C4C /* EmitterViewController.m */,
 				43C2E2491CAAF5E60024C94B /* PathViewController.h */,
 				43C2E24A1CAAF5E60024C94B /* PathViewController.m */,
-				43C2E24D1CAB030B0024C94B /* TrafficLightViewController.h */,
-				43C2E24E1CAB030B0024C94B /* TrafficLightViewController.m */,
 				43C2E2501CAB0FC40024C94B /* SpaceViewController.h */,
 				43C2E2511CAB0FC40024C94B /* SpaceViewController.m */,
 			);
@@ -478,7 +473,6 @@
 				43F9D9FD1C9F2B3000623EAD /* main.m in Sources */,
 				43082F9A1C9F7566001B15D1 /* PulseViewController.m in Sources */,
 				43F9DA331C9F326500623EAD /* ImplicitAnimationViewController.m in Sources */,
-				43C2E24F1CAB030B0024C94B /* TrafficLightViewController.m in Sources */,
 				43C2E24B1CAAF5E60024C94B /* PathViewController.m in Sources */,
 				43F9DA301C9F2BE000623EAD /* RootViewController.m in Sources */,
 			);
